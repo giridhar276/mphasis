@@ -1,0 +1,122 @@
+anaconda
+
+
+spyder
+
+
+
+Microsoft
+-----------
+MS Office
+windows OS
+CRM tools
+ERP tools
+Azure
+..
+..
+
+
+Acaconda
+------------
+spyder ide
+jupyter notebook ( web interface)
+anaconda prompt
+orange visualization
+
+
+
+
+
+
+*** Everything in python is object ***
+*** Every object contains methods ***
+
+
+number
+--------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 343.3
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell scripting"
+cname = """java programming"""
+
+
+list ( just like array in C )( mutable , changeable )
+---------------------------
+list contains set of elements.
+elements can be numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30,40]
+blist = ["java","unix","oracle"]
+clist = [30,435.43,"java"]
+
+
+tuple  ( immutable  , unchangeable )
+-----------
+tuple contains set of elements.
+elements can be numbers or strings or any combination.
+tuple elemnets are defined in ().
+
+atup = (20,30,30,40)
+btup = (34,43.34,"java")
+
+
+dictionary ( hash  hashmap  json )
+-----------------------------------
+dictionary contains elements in the form of keys and values.
+in dictionary , key would be number or string used to uniquely identify the value.
+            value can be number or string or list or tuple or dictionary or complex structure
+
+syntax:     object = { key:value , key:value , key:value }
+example:      book = {"chap1":10 ,"chap2":20 ,"chap3':30}
+               data = {1:2,3:4,5:6}
+              bookinfo = {"chap1":["rao","US',100] ,"chap2":["rita","uk",300] }
+
+
+
+set
+------
+set is unordered collection of unique items of same TYPE.
+
+aset = {10,10,10,20,30,30}
+
+commenting in python
+------------------------
+
+# this is single line comment
+
+
+'''
+this is the 
+commented line
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
