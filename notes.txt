@@ -178,6 +178,24 @@ file handling
 
 working with flat files  ( txt    json   csv   log conf .)
 -------------------------------
+read mode  : r mode
+write mode  : w mode
+append mod :  a mode
+
+
+syntax: obj = open(filename , mode )
+example: fr = open("customers.txt","r" )
+              open("customers.txt","w")
+
+
+
+closing the file
+
+-----------------------
+fw.clos()
+
+
+
 
 
 
