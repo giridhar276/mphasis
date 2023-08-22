@@ -164,6 +164,48 @@ as
 
 
 
+How to display all the list of builtin(pre defined) functions and exceptions ?
+-----------------------------------------------------------------
+dir(__builtin__)
+
+
+
+
+
+
+file handling
+--------------
+
+working with flat files  ( txt    json   csv   log conf .)
+-------------------------------
+
+
+
+
+
+working with third party files ( pdf  pptx docx mp3 mp3 ... )
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
