@@ -164,6 +164,7 @@ as
 
 
 
+
 How to display all the list of builtin(pre defined) functions and exceptions ?
 -----------------------------------------------------------------
 dir(__builtin__)
@@ -192,9 +193,10 @@ example: fr = open("customers.txt","r" )
 closing the file
 
 -----------------------
-fw.clos()
+fw.close()
 
 
+context manager
 
 
 
@@ -206,11 +208,112 @@ working with third party files ( pdf  pptx docx mp3 mp3 ... )
 
 
 
+dipslay all the list of builtin functions and exceptoins ?
+-----------------------
+dir(__builtin__)
+
+
+exception handling
+-----------------------
+
+There are 2 types of errors.
+
+
+-syntax error
+-semantic error or runtime error
+
+Handling the errors that occurs during the runtime is known as exception handling.
+
+try
+except
+else
+finally
+raise
+
+
+
+functions
+-------------
+
+there are 2 types of functions
+
+- builtin functions
+- user defined functions
+
+
+user defined function | block | subroutine
+-----------------------------------------------
+- code reusability
+- we define the block once and call it for multiple times.
+
+
+ways of passing arguments
+----------------------------
+
+- fixed arguments
+- default arguments
+- keyword arguments
+- variable length arguments
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libraries
+--------------
+
+- builtin libraries
+----------------------
+all the builtin libraries(which are generally used by everyone like math operations, system operations) comes with python by default.
+
+8000+ are installed with anaconda spyder
+3000+ are installed with python default tool (IDLE)
+
+
+
+- third party libraries
+-------------------------
+Depending on the customized requirement(data anlytics , cloud , ML , image processing, databases,web development, storage) developer has to install the third party library from www.pypi.org
 
 
 
