@@ -318,6 +318,34 @@ Depending on the customized requirement(data anlytics , cloud , ML , image proce
 
 
 
+mysql steps
+-------------
+
+
+display all existing databases
+---------------------------------
+show databases ;
+
+create your database
+-------------------
+create database mphasis;
+
+access your database
+---------------------
+use mphasis;
+
+create table
+---------------
+create table adultinfo(workclass varchar(100),education varchar(100),occupation varchar(100));
+
+inserting records
+----------------
+insert into adultinfo values('private','btech','occupation');
+insert into adultinfo values('public','mtech','govt officer');
+
+display all the records
+-------------------------
+select * from adultinfo ;
 
 
 
@@ -332,6 +360,18 @@ Depending on the customized requirement(data anlytics , cloud , ML , image proce
 
 
 
+
+
+
+
+
+
+
+step1: connect to database
+step2: define query
+step3: execute query
+step4: fetch the output
+step5: close the connection
 
 
 
