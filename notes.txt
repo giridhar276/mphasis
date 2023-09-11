@@ -393,6 +393,13 @@ step5: close the connection
 
 
 
+-execute commands on the remote server
+- copy files from local to remote
+- copy files from remote to local
+------------------------------------------
+
+- enable ssh on the servers
+- python library : paramiko ( to execute commands)  , pysftp ( secure ftp)
 
 
 
